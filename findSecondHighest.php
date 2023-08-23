@@ -6,9 +6,9 @@
 </head>
 
 <body>
-    <form action="find_second_highest.php" method="post">
+    <form method="post">
         <label for="numbers">Enter numbers (comma-separated):</label><br>
-        <input type="text" id="numbers" name="numbers"><br><br>
+        <input type="numbers" id="numbers" name="numbers"><br><br>
         <input type="submit" value="Find Second Highest">
     </form>
     <?php
